@@ -1,0 +1,147 @@
+.stage{
+	min-width:1180px;
+}
+.header .nav_group{
+	background-color:#fff;
+}
+
+.fixed{
+	position:fixed;
+	width:100%;
+	background-color:white;
+	z-index:2;
+	left:0;
+}
+.header>div{
+	margin:0 auto;
+	min-width:1180px;
+}
+.content{
+	font-family:"宋体";
+	position:relative;
+	z-index:4;
+	background-color:#fff;
+}
+.chile_page1{
+	width:100%;
+	position:relative;
+	text-align:center;
+	color:#fff;
+	background:url(../../resources/bitmaps/culture/chile_bg1.jpg) no-repeat center center fixed;
+}
+.chile_page1 a{
+	position:absolute;
+	bottom:20px;
+	left:50%;
+	display:block;
+	width:28px;
+	height:28px;
+	margin-left:-14px;
+}
+/*山谷样式*/
+.chile_page2 .chile_page2_f,
+.chile_page2 .chile_page2_r{
+	width:50%;
+}
+.chile_page2 img,
+.chile_page3 img{
+	width:100%;
+}
+.chile_page2 .page2_introduce,
+.chile_page4 .founder_r{
+	font-size:18px;
+	width:525px;
+	color:#858383;
+}
+.chile_page2 .daie_introduce{
+	padding:20% 0 0 8%;
+}
+.chile_page2 .chateau_introduce{
+	padding:20% 8% 0 0;
+}
+.chile_page2 .winemaker_introduce{
+	padding:28% 8% 0 0;
+}
+.chile_page2 h1,
+.chile_page4 .founder_r h1{
+	margin:0;
+	font-size:18px;
+	line-height:20px;
+	color:#af904a;
+}
+.chile_page2 h2,
+.chile_page4 .founder_r h2{
+	font-size:34px;
+	margin:0 0 10px 0;
+	line-height:45px;
+	color:#222222;
+	font-family:"黑体";
+}
+.chile_page2 p,
+.chile_page4 .founder_r p{
+	line-height:24px;
+}
+/*创始人简介样式*/
+.chile_page4,
+.chile_page4 .chile_figure{
+	width:1180px;
+	height:1180px;
+	margin:0 auto;
+}
+.chile_page4>div{
+	width:164%;
+	height:100%;
+	margin-left:-32%;
+	background:url(../../resources/bitmaps/culture/chile4.jpg) no-repeat;
+}
+.chile_page4 .founder{
+	height:538px;
+	position:relative;
+}
+/*遮罩层样式*/
+.chile_page4 .figure_img{
+	position:absolute;
+	width:534px;
+	height:642px;
+	margin-left:370px;
+}
+.chile_page4 .founder .figure_img{
+	/*margin:-104px 0 0 52px;*/
+	left:52px;
+	top:-104px;
+	margin:0;
+}
+.chile_page4 .figure_img .layer{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+	filter:alpha(opacity=0);
+	opacity:0;
+	transition:opacity .4s ease-out;
+}
+.chile_page4 .figure_img .layer p{
+	margin-top:480px;
+}
+.chile_page4 .figure_img .layer:hover{
+	filter:alpha(opacity=70);
+	opacity:.7;
+}
+.chile_page4 .founder_r{
+	padding:85px 0 0 650px;
+}
+.chile_page4 .founder_r ul{
+	list-style-type:disc;
+	margin-top:40px;
+	width:485px;
+}
+/*背景样式*/
+.chile_bg{
+	width:100%;
+	height:480px;
+	background:url(../../resources/bitmaps/culture/chile_bg2.jpg) no-repeat center center fixed;
+}

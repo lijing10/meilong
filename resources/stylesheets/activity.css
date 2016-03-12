@@ -1,0 +1,202 @@
+.content .title_img{
+	max-width:1180px;
+	margin:0 auto;
+}
+.content .title_img .top_img,
+.content .details,
+.content .flow,
+.content .color_lump,
+.content .code{
+	margin-left:-32%;
+	width:164%;
+	/*display:block;*/
+}
+/*活动详情样式*/
+.content .details{
+	background:url(../bitmaps/images/activity2.jpg) no-repeat;
+	height:838px;
+}
+.content .details>div{
+	margin:0 auto;
+	width:1080px;
+	padding-top:115px;
+}
+.content .details>div>h2{
+	width:230px;
+	line-height:70px;
+	color:white;
+	background-color:#b086b8;
+	-webkit-border-radius:15px 15px 0 0;
+	-moz-border-radius:15px 15px 0 0;
+	-o-border-radius:15px 15px 0 0;
+	-ms-border-radius:15px 15px 0 0;
+	border-radius:15px 15px 0 0;
+	font-size:39px;
+	text-align:center;
+	letter-spacing:1px;
+	font-family:"宋体";
+}
+.content .details .details_content{
+	background-color:white;
+	padding:85px 0 40px 45px;
+	filter:alpha(opacity=89);
+	opacity:0.89;
+	position:relative;
+	font-family:"微软雅黑";
+	border:1px solid #b48cbd;
+	-webkit-box-shadow:3px 3px 3px #b48cbd;
+	-moz-box-shadow:3px 3px 3px #b48cbd;
+	-o-box-shadow:3px 3px 3px #b48cbd;
+	-ms-box-shadow:3px 3px 3px #b48cbd;
+	box-shadow:3px 3px 3px #b48cbd;
+}
+.content .details li{
+	font-size:26px;
+	line-height:28px;
+	margin-bottom:18px;
+	padding-left:50px;
+	background:url(../bitmaps/images/activity5.jpg) no-repeat 0 center;
+	width:760px;
+}
+.content .details .double{
+	background:url(../bitmaps/images/activity5.jpg) no-repeat 0 6px;
+}
+.content .details span{
+	font-size:32px;
+	display:inline-block;
+	color:#883897;
+	text-indent:55px;
+	margin-top:60px;
+}
+.content .details .phone{
+	background:url(../bitmaps/images/activity6.png) no-repeat 0 center;
+	margin-right:35px;
+}
+.content .details .qq{
+	background:url(../bitmaps/images/activity7.png) no-repeat 0 center;
+	text-indent:80px;
+}
+.content .details img{
+	position:absolute;
+	top:70px;
+	right:-100px;
+}
+/*活动流程样式*/
+.content .flow{
+	background-color:#ab8079;
+	height:665px;
+}
+.content .flow>div{
+	margin:0 auto;
+	width:1080px;
+	padding-top:125px;
+}
+.content .flow>div>h2{
+	width:170px;
+	line-height:50px;
+	color:white;
+	background-color:#e77713;
+	-webkit-border-radius:13px 13px 0 0;
+	-moz-border-radius:13px 13px 0 0;
+	-o-border-radius:13px 13px 0 0;
+	-ms-border-radius:13px 13px 0 0;
+	border-radius:13px 13px 0 0;
+	font-size:28px;
+	text-align:center;
+	letter-spacing:1px;
+	font-family:"宋体";
+}
+.content .flow .flow_content{
+	width:770px;
+	height:555px;
+	background-color:white;
+	position:relative;
+	border:1px solid #e77713;
+	-webkit-box-shadow:3px 3px 3px #e77713;
+	-moz-box-shadow:3px 3px 3px #e77713;
+	-o-box-shadow:3px 3px 3px #e77713;
+	-ms-box-shadow:3px 3px 3px #e77713;
+	box-shadow:3px 3px 3px #e77713;
+}
+.content .flow img{
+	position:absolute;
+	top:-10px;
+	right:-346px;
+}
+.content .flow ul{
+	padding:50px 0 0 30px;
+}
+.content .flow li{
+	margin-bottom:25px;
+	width:345px;
+	line-height:70px;
+	font-size:22px;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+	background:url(../bitmaps/images/activity9.png) no-repeat;
+}
+.content .flow .li2{
+	background-position:-0 -97px;
+}
+.content .flow .li3{
+	background-position:-0 -194px;
+}
+.content .flow .li4{
+	background-position:-0 -298px;
+}
+.content .flow .li5{
+	background-position:-0 -396px;
+}
+.content .flow .li6{
+	background-position:-343px 0;
+	text-indent:80px;
+}
+.content .flow .li7{
+	background-position:-343px -97px;
+	text-indent:80px;
+}
+.content .flow .li8{
+	background-position:-343px -194px;
+	text-indent:80px;
+}
+.content .flow .li9{
+	background-position:-343px -298px;
+	text-indent:80px;
+}
+.content .flow .li10{
+	background-position:-343px -396px;
+	text-indent:80px;
+}
+.content .color_lump{
+	background-color:#e5c6c3;
+	height:110px;
+}
+/*二维码样式*/
+.content .code{
+	background:url(../bitmaps/images/activity10.jpg) no-repeat;
+	height:483px;
+}
+.content .code>div{
+	margin:0 auto;
+	width:1180px;
+	position:relative;
+	font-family:"宋体";
+}
+.content .code>div p{
+	padding:160px 0 0 485px;
+	color:white;
+	font-size:53px;
+}
+.content .code>div .p1{
+	padding:0 0 0 485px;
+	line-height:70px;
+}
+.content .code>div .p1 strong{
+	font-size:61px;
+}
+.content .code>div img{
+	position:absolute;
+	left:115px;
+	top:108px;
+}

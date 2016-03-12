@@ -1,72 +1,454 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>首页-广东美隆实业投资有限公司官网</title>
+    <!--
+        HTML5 标签兼容性；-->
+    <script type="text/javascript" id="html5Profill">///<![CDATA[
+    (function main( domain, undefined ) { "use strict";
+    /// TODU: 
+    /// 让浏览器支持 html5 新增的标签，以及自定义的标签；
+    var h5Tags =("article|aside|details|figcaption|figure|footer|header|hgroup|main|content|menu|nav|section|summary|overlay|mask|banner|dialog|template|container|" + /* block */
+                 "audio|canvas|progress|video|" + /* inline-block */
+                 "abbr|bdi|data|datalist|mark|meter|output|time").split("|"); /* inline */
+    /// SEE: 
+    /// http://debeterevormgever.nl/code/html5-elements-ie-without-javascript
+    for ( var i = 0; i < h5Tags.length; ++i ) 
+        { document.createElement( h5Tags[i] ); }
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Meilong : 项目一">
+        
+    }(this));
+    ///]]></script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Meilong</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/lijing10/meilong">View on GitHub</a>
-
-          <h1 id="project_title">Meilong</h1>
-          <h2 id="project_tagline">项目一</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/lijing10/meilong/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/lijing10/meilong/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+    <!--通用样式表 -->
+    <link rel="stylesheet" href="resources/stylesheets/normalize.css" />
+    <link rel="stylesheet" href="resources/stylesheets/global.css" />
+    <link rel="stylesheet" href="resources/stylesheets/project.css" />
+    <!--图片轮播组件的样式-->
+    <link rel="stylesheet" href="resources/stylesheets/slider.css" />
+    <!--特性介绍组件的样式-->
+    <link rel="stylesheet" href="resources/stylesheets/feature.css" />
+    <!--视差滚动组件的样式-->
+    <link rel="stylesheet" href="resources/stylesheets/parallax.css" />
+    <!--地图标识组件的样式-->
+    <link rel="stylesheet" href="resources/stylesheets/location.css" />
+    <!--地图上的手机的样式-->
+    <link rel="stylesheet" href="resources/stylesheets/phone.css" />
+    <!--地图上的标识点的样式-->
+    <link rel="stylesheet" href="resources/stylesheets/points.css" />
+</head>
+<body><main class="stage"><div class="stage-wrapper">
+<!-- ================================================================================ -->
+<!--导航/头部-->
+<!-- ================================================================================ -->
+<header class="header">
+    <!--工具控件组-->
+    <div class="tools">
+        <div>
+            <!--授权查询按钮-->
+            <div class="group float_left">
+                <a class="store" href="http://buy.meilong.cn/">美隆商城</a>
+                <a class="accredit" href="authority.html">查授权</a>
+            </div>
+            
+            <div class="wel float_right">
+                <div class="login" style="display:inline-block;">
+                    <span>hi，欢迎来到美隆！</span>
+                    <a href="http://vip.meilong.cn/">请登录</a>
+                    <a href="http://vip.meilong.cn/public/readyRegister">免费注册</a>
+                </div>
+                <div class="info" style="display:none;">
+                <span>Hi,</span><a class="info_name" href="http://vip.meilong.cn/center/user/userInfo"></a><a href="http://vip.meilong.cn/center/user/userInfo">个人中心</a><a class="exit" href="javascript:void(0);">安全退出</a>
+                </div>
+                <a class="last" href="javascript:void(0);">手机美隆</a>
+                <img src="resources/images/interview4.jpg" />
+            </div>
+            <div class="clear"></div>
+        </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="nav_group">
+        <!--品牌 LOGO-->
+        <div class="brand float_left"><img src="resources/bitmaps/common/logo.png" width="191" height="26" /></div>
+        <!--网址导航-->
+        <ul class="nav flaot_left">
+            <li><a class="nav-button actived" href="index.html"><span>首页</span></a></li>
+            <li>
+                <a class="nav-button" href="about.html">
+                    <span>走进美隆</span>
+                </a>
+                <ul class="nav_ul">
+                    <li class="nav_li"><a href="news.html">美隆新闻</a></li>
+                    <li class="nav_li"><a href="Interview.html">人物访谈</a></li>
+                    <li class="nav_li"><a href="404.html">美隆公告</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="nav-button" href="culture.html">
+                    <span>精神文化</span>
+                </a>
+                <ul class="nav_ul">
+                    <li class="nav_li"><a href="chile.html">智利产区</a></li>
+                    <li class="nav_li"><a href="javascript:void(0);">法国产区</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-button" href="brand.html"><span>美隆品牌</span></a></li>
+            <!-- <li><a class="nav-button" href="404.html"><span>专柜</span></a></li> -->
+            <li><a class="nav-button" href="contact_us.html"><span>联系我们</span></a></li>
+        </ul>
+        <div class="clear"></div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Meilong maintained by <a href="https://github.com/lijing10">lijing10</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
     
+    <!--授权查询表单-->
+    <!--<form class="oauth" action="/" method="post">
+        <input class="oauth-input" type="search" autocomplete="on" placeholder="查授权" />
+        <input class="oauth-submit" type="submit" value="查询" />
+    </form>-->
+</header>
+<!-- ================================================================================ -->
+<!--页面内容-->
+<!-- ================================================================================ -->
+<!--图片轮播-->
+<div class="banner">
+    <ul class="slide">
+        <li><a class="slider-bitmap" href="brand.html"><img src="resources/bitmaps/banners/1.jpg" /></a></li>
+        <li><a class="slider-bitmap" href="travels.html"><img src="resources/bitmaps/banners/02.jpg" /></a></li>
+    </ul>
+    <div class="slidepoint">
+        <div class="slidepoint_center">
+            <ul>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+            </ul>
+        </div>
+    </div>
+    <a href="javascript:void(0);" class="unslider-arrow slideprev checkprev">&lt</a>
+    <a href="javascript:void(0);" class="unslider-arrow slidenext checknext">&gt</a>
+</div>
 
-  </body>
+<content class="page-content">
+<!--动态新闻-->
+<section class="dynamic_news">
+    <dl>
+        <dt class="float_left"><h4>聚焦美隆</h4></dt>
+        <dl class="dl1">
+            <dd class="newsWord"><span class="float_right">2015/07/18</span><a href="news1.html">广东美隆实业投资有限公司东莞广州分公司签约仪式顺利举行</a></dd>
+            <dd class="newsWord"><span class="float_right">2015/07/04</span><a href="news20150704.html">惬意早晨，带瓶拉图亚米龙去野餐！</a></dd>
+            <dd class="newsWord"><span class="float_right">2015/06/25</span><a href="news20150625.html">夏日炎炎，带瓶红酒到海边去浪</a></dd>
+        </dl>
+        <dd class="newsMore float_right">
+            <a href="news.html">MORE</a>
+        </dd>
+        <div class="clear"></div>
+    </dl>
+</section>
+<!--实时新闻-->
+<section class="spot_news">
+    <div class="news_left float_left">
+        <h1>新闻发布获取最新消息</h1>
+        <h4>NEWS RELEASE</h4>
+        <ul>
+            <li><a href="news20150729.html">广东美隆实业与赋格文化传播合作签约仪式顺利举行</a></li>
+            <li><a href="news20150725.html">炒股有风险，不如藏酒等升值</a></li>
+            <li><a href="news20150724.html">星空那一头的“另一个地球”，也能出产葡萄酒吗？</a></li>
+            <li><a href="news1.html">广东美隆实业投资有限公司东莞、广州分公司签约仪式顺利举行</a></li>
+            <li><a href="news20150716.html">在热成狗的天气里，请别忘记在烈日下工作的他们。</a></li>
+        </ul>
+        <a class="kget-button" href="news.html">查看更多<i class="caret"></i></a>
+    </div>
+    <div class="news_right float_right">
+        <a href="news1.html"><img src="resources/images/index3.png" /></a>
+        <h4><a href="news1.html">广东美隆实业投资有限公司东莞广州分公司签约仪式顺利举行</a></h4>
+        <p>下午两点，各位来宾在公司领导的带领下参观了公司环境并对公司现代化的设计很感兴趣，纷纷合影留念。随后，大家移步会议室进行签约仪式…</p>
+    </div>
+    <div class="clear"></div>
+</section>
+<!--特性介绍-->
+<section class="layout-w980"><div class="feature">
+    <header class="headbar">
+        <h1 class="title">突破时空界限，体验至尊享受</h1>
+        <div class="subline">亮红色轻盈的酒体在透明的玻璃杯中晃动，未入口，空气中氤氲着诱人的芬芳，<br />像蒙着面纱的深闺少女，神秘鬼魅。微微抿上一口，甜蜜中带着些许苦涩，浓郁的果香盈满口腔。</div>
+    </header>
+    <div class="map">
+        <img class="responsive" src="resources/bitmaps/feature.png" width="980" height="486" />
+    </div>
+    <div class="row clearfix">
+        <div class="col-3">
+            <h3 class="col-name">魅惑色泽</h3>
+            <p>饱满的亮红色犹如尊贵的红宝石，在柔光下散发迷人光彩，深邃如夜，让人为此着迷</p>
+        </div>
+        <div class="col-3">
+            <h3 class="col-name">诱人芳香</h3>
+            <p>浓郁果香弥散整个空间，流露出兼具法国浪漫风情和南美风味的芳香，让你如临蓬莱仙境</p>
+        </div>
+        <div class="col-3">
+            <h3 class="col-name">极致口感</h3>
+            <p>酸度适中，单宁厚实，口感如丝绸般柔滑细腻，像一首动听婉转的歌曲，余音绕梁，不绝于耳。</p>
+        </div>
+    </div>
+</div>
+</section>
+<!--视差图片-->
+<section class="embed-responsive-3by2">
+<div class="parallax"><div class="parallax-wrapper">
+    <div class="parallax-content hidden-description">
+        <h1 class="parallax-content-title">源于八千年前的古波斯</h1>
+        <p class="">延续古波斯神话，传承上古精湛工艺，结合现代创新科技，以法国浪漫情怀，酿造品质美酒，跨洋越海，与你分享奇妙的味蕾之旅，体验极致的艺术生活。</p>
+    </div>
+</div></div>
+</section>
+<!--地图标识-->
+<section class="layout-w980"><div class="location">
+    <header class="headbar">
+        <h1 class="title">随时随地，无线关怀分享喜悦</h1>
+        <div class="subline">利用掌上有限空间，随时随地突破时空界限，<br />与家人朋友分享香醇佳酿，传递温暖，传递关怀，移动互联网＋中国红酒第一品牌。</div>
+    </header>
+    <div class="map"><!--off-screen-disabled-->
+        <img class="responsive" src="resources/bitmaps/location.png" width="980" height="500" />
+        <div class="points"></div>
+        <div class="phone"></div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-3">
+            <h3 class="col-name">线上运营</h3>
+            <p>利用方便快捷的网络，体验随时随地购物的乐趣，轻轻用指尖向世界传递你的关怀</p>
+        </div>
+        <div class="col-3">
+            <h3 class="col-name">品牌红酒</h3>
+            <p>采用精挑细选的原材料，专业酿酒大师精工酿造，超凡脱俗。</p>
+        </div>
+        <div class="col-3">
+            <h3 class="col-name">人文关怀</h3>
+            <p>借用一杯曼妙醇香的红酒，寄托我最真挚的祝福，带着暖暖的温情走进你的心间</p>
+        </div>
+    </div>
+</div>
+</section>
+</content>
+<!-- ================================================================================ -->
+<!--页面底部-->
+<!-- ================================================================================ -->
+<footer class="footer">
+<!--返回顶部-->
+<aside class="fixed-collection"><div class="fixed-wrapper">
+    <a class="scrolltotop" href="javascript:void(0);"><i class="allow"></i><span class="label">TOP</span></a>
+</div></aside>
+<div class="site-oauth">
+    <div class="site-oauth-wrapper clearfix">
+        <label class="label">请您输入相应的手机号、微信号查询</label>
+        <form class="oauth" action="http://vip.meilong.cn/sq/authorization/index" method="post">
+            <div class="oauth-picker" id="codeselect">
+                <div class="picker-wrapper">
+                    <ul class="picker-list">
+                        <li><a class="pik-button actived" data-value="0" href="javascript:void(0);">手机号<i class="caret"></i></a></li>
+                        <li><a class="pik-button" data-value="1" href="javascript:void(0);">微信号<i class="caret"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <input type="hidden" id="codename" name="codename" value="0" />
+            <input class="oauth-input" id="content" name="content" type="search" autocomplete="on" placeholder="Ex:" />
+            <input class="oauth-submit" type="submit" value="查询" />
+        </form>
+    </div>
+</div>
+<div class="site-maps">
+<div class="row clearfix">
+    <div class="col-3">
+        <h3 class="col-name">关于我们</h3>
+        <p class="col-data">移动互联网+中国红酒第一品牌，创新运营模式，囊括全球市场，提供多元化产品，引领红酒销售新风尚</p>
+        <a class="kget-button" href="intro.html">了解更多<i class="caret"></i></a>
+    </div>
+    <div class="col-3">
+        <h3 class="col-name">我们的品牌</h3>
+        <p class="col-data">开拓进取，锐意创新，不断超越，卓越无限，用心提供诚挚服务，许你品质生活</p>
+        <a class="kget-button" href="travels.html">了解更多<i class="caret"></i></a>
+    </div>
+    <div class="col-3">
+        <h3 class="col-name">联系我们</h3>
+        <p class="col-data1">我们很想听听您的心声，让我们满足。<a class="tel" href="tel:0769-89937999">+0769-89937999</a></p>
+        <img src="resources/images/interview10.jpg" />
+    </div>
+</div>
+</div>
+<div class="site-cps">
+    <div class="cps-wrapper clearfix">
+        <p class="copyright">Copyright&copy; 2015 广东美隆实业投资有限公司 版权所有</p>
+        <p class="icp"><a href="http://www.miitbeian.gov.cn">粤ICP备15047028号-3</a></p>
+    </div>
+</div>
+</footer>
+</div></main>
+<!-- ================================================================================ -->
+<!--模板定义-->
+<!-- ================================================================================ -->
+<template hidden id="tmplPointOverlay">
+<div class="points-overlay autoalpha" style="margin-left:{{left}};margin-top:{{top}};"><img src="{{overlay}}" /></div>
+</template>
+<template hidden id="tmplPoint">
+<div class="point autoalpha" data-refid="{{refid}}"><span class="shadow"></span><span class="drop"></span></div>
+</template>
+<!-- ================================================================================ -->
+<!--脚本及初始化-->
+<!-- ================================================================================ -->
+<script type="text/javascript" src="resources/scripts/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="resources/scripts/TweenMax.min.js"></script>
+<script type="text/javascript" src="resources/scripts/plugins/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="resources/scripts/Utils.js"></script>
+<script type="text/javascript" src="resources/scripts/slider.js"></script>
+<script type="text/javascript" src="resources/scripts/Parallax.js"></script>
+<script type="text/javascript" src="resources/scripts/Tracker.js"></script>
+<script type="text/javascript" src="resources/scripts/Picker.js"></script>
+<script type="text/javascript" src="resources/scripts/cookie.js"></script>
+<!--公用文件-->
+<script type="text/javascript" src="resources/scripts/common.js"></script>
+<!--地图数据文件-->
+<script type="text/javascript" src="resources/scripts/Points.js"></script>
+<script type="text/javascript">///<![CDATA[
+(function main( domain, undefined ) { "use strict";
+/// 视差图；
+//var parallax = new Parallax(".parallax-wrapper", { size: 0 });
+
+/// 地图创建；
+var $map = $(".location > .map");
+var $points = $map.children(".points");
+var $tmplPoint = $("#tmplPoint").html();
+var $tmplPointOverlay = $("#tmplPointOverlay").html();
+var regexp = /\{\{\s*([^\}\s]+)\s*\}\}/g;
+
+function tmplRendener( string, object ) {
+    return string.replace(regexp, function( match, keyname ) { return (keyname in object ? ("" + object[keyname]) : ""); });
+}
+
+(function loadPoints() {
+    $points.empty();
+
+    for ( var i = 0; i < Points.length; ++i ) {
+        var $item = $( tmplRendener($tmplPoint, { "refid": i }) );
+            $item.css({ "left": Math.round(Points[i].x * 100 / 980) + "%", "top": Math.round(Points[i].y * 100 / 500) + "%" });
+            //$item.on("mouseenter mouseleave", itemAvtiveHandler);
+            $item.appendTo( $points );
+
+        if ( (Points[i].overlay) ) {
+            var $overlay = $( tmplRendener($tmplPointOverlay, Points[i]) );
+                //$overlay.addClass( (Points[i].x < 0.5 ? "left-overlay" : "right-overlay") );
+                $overlay.appendTo( $item );
+        }
+    }
+}());
+
+//function itemAvtiveHandler( evt ) {
+//    var margin = (evt.type == "mouseenter" ? 0 : 8);
+//    var alphas = (evt.type == "mouseenter" ? 1 : 0);
+
+//    TweenMax.to( $(evt.currentTarget).children(".points-overlay"), 0.2, { marginTop: margin, autoAlpha: alphas, ease: Quad.easeInOut } );
+//}
+
+/// #自定义下拉菜单；
+var $codeselect = $("#codeselect");
+var $codename = $("#codename");
+var codePicker = new Picker($codeselect);
+$codeselect.on("change.picker", function( evt ) {
+    var value = codePicker.GetValue();
+    $codename.val( value );
+});
+
+/// #页面滚动跟踪；
+var tracker = new Tracker();
+
+$map.on("enterscreen.track", function( evt ) {
+    var $items = $points.find(".point");
+    var $item = null;
+    var $over = null;
+    var timeline = new TimelineMax({ paused: true });
+    var delay = 0.6;
+
+    for ( var i = 0; i < $items.length; ++i ) {
+        $item = $( $items[i] );
+        $over = $item.children(".points-overlay");
+        TweenMax.killTweensOf( $item );
+        TweenMax.killTweensOf( $over );
+
+        timeline.insert( 
+            TweenMax.to( $item, 0.4, { autoAlpha: 1, ease: Quad.easeInOut } ),
+            delay
+        );
+        timeline.insert( 
+            TweenMax.to( $over, 0.4, { marginTop: 0, autoAlpha: 1, ease: Quad.easeInOut } ),
+            delay
+        );
+
+        delay += 0.2;
+    }
+
+    timeline.restart();
+});
+
+$map.on("leavescreen.track", function( evt ) {
+    var $items = $points.find(".point");
+    var $item = null;
+    var $over = null;
+
+    for ( var i = 0; i < $items.length; ++i ) {
+        $item = $( $items[i] );
+        $over = $item.children(".points-overlay");
+        TweenMax.killTweensOf( $item );
+        TweenMax.killTweensOf( $over );
+        TweenMax.set( $item, { autoAlpha: 0 });
+        TweenMax.set( $over, { marginTop: 20, autoAlpha: 0 });
+    }
+});
+
+var $hiddenTitles = $(".hidden-title");
+var $hiddenDescription = $(".hidden-description");
+
+for ( var i = 0; i < $hiddenTitles.length; ++i ) {
+    tracker.Add( $hiddenTitles[i] );
+}
+for ( var i = 0; i < $hiddenDescription.length; ++i ) {
+    tracker.Add( $hiddenDescription[i] );
+}
+
+tracker.Add( $map );
+
+$(window).load(function() {
+    tracker.RendenNow();
+});
+
+}(this));
+
+//动态新闻滚动
+var timer1 = setInterval(function(){
+    $('.dynamic_news .dl1').animate({
+        top:'-=60px'
+    },1500,function(){
+        $(this).css('top','0px').find('.newsWord:first').appendTo(this);
+    })
+},4000);
+$('.dynamic_news .dl1').mouseover(function(){
+    clearInterval(timer1);
+});
+$('.dynamic_news .dl1').mouseout(function(){
+    timer1 = setInterval(function(){
+        $('.dynamic_news .dl1').animate({
+            top:'-=60px'
+        },1500,function(){
+            $(this).css('top','0px').find('.newsWord:first').appendTo(this);
+        })
+    },4000);
+})
+
+///]]></script>
+
+<!--数据统计-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fb2aed95e07432457f7ba65550dc6e62";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
 </html>

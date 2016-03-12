@@ -1,0 +1,9 @@
+﻿.phone {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 192px;
+    height: 373px;
+    background: url(../bitmaps/phone.png) no-repeat 0px 0px;
+    margin-left: 32px;
+}

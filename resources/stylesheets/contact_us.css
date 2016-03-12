@@ -1,0 +1,18 @@
+.header{
+	border-bottom:1px solid #ddd;
+}
+
+/*内容样式*/
+.content{margin:0 auto;width:100%;height:auto;text-align:center;}
+.content h1{font-size:38px;margin:40px 0 25px 0;color:#461952;letter-spacing:1px;line-height:45px;}
+.content p{font-size:14px;margin-bottom:35px;color:#98a5b1;line-height:20px;letter-spacing:1px;}
+.content img{width:100%;}
+.content .content_p1{margin:50px 0 95px 0;}
+.content .message{max-width:980px;margin:0 auto;text-align:left;height:280px;}
+.message h4{font-size:18px;color:#098cd7;margin:0 0 22px 0;line-height:30px;}
+.message p{padding:0 0 0 15px;font-size:12px;margin:0;letter-spacing:0;}
+.message_phone{margin:0 190px 0 130px;}
+.message_phone h4{background:url(../images/contact2.jpg) no-repeat 0 center;text-indent:38px;}
+.message_addres h4{background:url(../images/contact3.jpg) no-repeat 0 center;text-indent:50px;}
+.message_time h4{background:url(../images/contact4.png) no-repeat 0 center;text-indent:45px;}
+.message_time{margin:0 0 0 160px;}

@@ -1,0 +1,9 @@
+.header{
+	border-bottom:1px solid #ddd;
+}
+/*内容样式*/
+.content{margin:0 auto;width:100%;height:auto;text-align:center;}
+.content h1{font-size:38px;margin:50px 0 25px 0;color:#461952;word-spacing:1px;}
+.content p{font-size:14px;margin-bottom:26px;color:#98a5b1;line-height:20px;letter-spacing:1px;}
+.content img{width:100%;}
+.content .content_p1{margin:60px 0 80px 0;}

@@ -1,0 +1,139 @@
+.header{
+	border:1px solid #dddddd;
+}
+.page-content{
+	width:1160px;
+	max-width:1160px;
+	margin:0 auto;
+	font-family:"微软雅黑";
+}
+/*banner*/
+.banner_wrap{
+	position:relative;
+	width:1160px;
+	margin:0 auto;	
+}
+.banner_wrap .prev_button,
+.banner_wrap .next_button{
+	position:absolute;
+	top:50%;
+	margin-top:-19px;
+	z-index:999;
+	cursor:pointer;
+}
+.banner_wrap .next_button{
+	right:0px;
+}
+.banner_content{
+	width:1080px;
+	height:578px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+.banner{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.banner_list{
+	width:1080px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.banner_left{
+	width:508px;
+}
+.banner_right{
+	width:572px;
+	height:578px;
+	color:#0c0c0c;
+}
+.banner_right .top{
+	height:282px;
+	padding-top:55px;
+}
+.banner_right h1{
+	margin:0 0 20px 0;
+	font-size:26px;
+	line-height:30px;
+	text-align:center;	
+}
+.banner_right p{
+	font-size:18px;
+	line-height:30px;
+	padding:0 50px;
+}
+.banner_right .country{
+	margin-top:35px;
+	font-size:20px;
+}
+.banner_right b{
+	color:#cccccc;
+}
+.banner_right strong{
+	font-weight:normal;
+}
+.banner_right i{
+	width:100px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	text-align:center;
+	background-color:black;
+}
+.banner_right i a{
+	color:white;
+	display:block;
+}
+.banner_right .bottom{
+	height:241px;
+	overflow:hidden;
+}
+/*产品样式*/
+.product_h{
+	font-size:24px;
+	margin:40px 0 15px 40px;
+	line-height:30px;
+}
+.product_list{
+	padding-left:40px;
+}
+.product_list li{
+	float:left;
+	margin:0 10px 50px 0;
+	padding-bottom:25px;
+	width:262px;
+	font-size:18px;
+	background-color:#fbfbfb;
+}
+.product_list .last{
+	margin-right:0;
+}
+.product_list p{
+	padding:0 25px;
+	margin:38px 0 17px 0;
+	height:44px;
+	line-height:22px;
+}
+.product_list span{
+	display:block;
+	width:80px;
+	height:30px;
+	margin-left:25px;
+	line-height:30px;
+	border:1px solid red;
+	text-align:center;
+	color:red;
+	cursor:pointer;
+}
+.product_list .open span:hover{
+	background-color:#000;
+	border-color:#000;
+	color:white;
+}
+.product_list .close span{
+	color:#9d9d9d;
+	border-color:#9d9d9d;
+}

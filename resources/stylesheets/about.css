@@ -1,0 +1,121 @@
+.header{
+	border-bottom:1px solid #ddd;
+}
+.content{
+	width:1180px;
+	margin:0  auto;
+	padding:0 0 115px 0;
+	font-family:"黑体";
+}
+/*公司风貌样式*/
+.content .style{
+	margin:65px 0 55px 0;
+}
+.content .style .line{
+	display:inline-block;
+	width:420px;
+	height:25px;
+	overflow:hidden;
+	background:url(../images/style/style_line1.jpg) repeat-x 0 15px;
+}
+.content .style p{
+	display:inline-block;
+	font-size:22px;
+	line-height:35px;
+}
+.content .style p i{
+	vertical-align:middle;
+}
+.content .style p b{
+	vertical-align:middle;
+	color:#f95200;
+	font-size:27px;
+	margin-left:9px;
+	font-family:"Arial";
+}
+.content ul li{
+	width:382px;
+	margin:0 17px 50px 0px;
+	display:inline-block;
+}
+.content ul li.last{
+	margin-right:0;
+}
+.content ul li h2{
+	font-size:24px;
+	margin:20px 0 10px 0;
+	line-height:26px;
+}
+.content ul li p{
+	font-size:14px;
+	line-height:16px;
+	color:#1a1a1a;
+}
+
+/*创始人样式*/
+.content  .style_title{
+	font-size:34px;
+	margin:50px 0 80px 0;
+	line-height:50px;
+	position:relative;
+}
+.style_title span{
+	position:absolute;
+	left:185px;
+	top:50%;
+	margin-top:-15px;
+	display:inline-block;
+	width:2px;
+	height:30px;
+	background-color:#000;
+}
+.style_title i{
+	color:#808080;
+	font-family:"Arial";
+	margin:0 0 0 30px;
+}
+.style_title strong{
+	float:right;
+	overflow:hidden;
+	width:610px;
+	height:30px;
+	background:url(../images/style/style_line2.jpg) repeat-x 0 25px;
+}
+.founder .founder_detail{
+	width:590px;
+	float:right;
+}
+.founder .founder_detail h1{
+	font-size:46px;
+	color:#1a1a1a;
+	margin:30px 0 10px 0;
+	line-height:50px;
+}
+.founder .founder_detail h5{
+	font-size:24px;
+	font-family:"Arial";
+	color:#808080;
+	margin:0 0 20px 0;
+	line-height:28px;
+}
+.founder .founder_detail p{
+	font-size:26px;
+	color:#1a1a1a;
+	line-height:40px;
+}
+/*营业执照样式*/
+.content .add_bus{
+	margin:90px 0 60px 0;
+}
+.add_bus span{
+	left:150px;
+}
+.add_bus strong{
+	width:660px;
+}
+.license{
+	padding-left:65px;
+}
+.license .img1{
+	margin:65px 0 0 135px;
+}

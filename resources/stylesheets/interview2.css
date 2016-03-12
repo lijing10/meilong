@@ -1,0 +1,134 @@
+/*内容样式*/
+.content{
+    margin-bottom:30px;
+    font-family:"宋体";
+}
+.content .index{
+    width:100%;
+    background-color:#f5f5f5;
+    height:60px;
+}
+.content .index ul{
+    max-width:980px;
+    margin:0 auto;
+}
+.content .index li{
+    float:left;
+    font-size:18px;
+    line-height:60px;
+    margin-right:20px;
+}
+.content .index li a{
+    color:#5a5a59;
+}
+.content .index a:hover{
+    color:#f95200;
+}
+.content .index .list{ 
+    text-indent:18px;
+    background:url(../images/interview11.png) no-repeat 0 center;
+}
+/*固定定位样式*/
+.content .news_bg{
+    background-color:white;
+    width:100%;
+}
+.fixed{
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:999999;
+}
+/*新闻标题样式*/
+.content .news_title{
+    max-width:740px;
+    margin:0 auto;
+    position:relative;
+    padding:50px 120px 60px;
+    height:auto;
+}
+.content .news_title h4{
+    font-size:30px;
+    line-height:35px;
+    margin-bottom:20px;
+    width:700px;
+}
+.content .news_title p{
+    font-size:20px;
+    line-height:25px;
+    width:700px;
+    padding-left:10px;
+}
+.content .news_title p i{
+    color:#f95200;
+    padding-left:30px;
+}
+/*分页按钮*/
+.content .news_title .prevPage{
+    position:absolute;
+    display:block;
+    width:50px;
+    height:50px;
+    left:35px;
+    top:70px;
+    background:url(../images/interview5.jpg) no-repeat;
+}
+.content .news_title .nextPage{
+    position:absolute;
+    display:block;
+    width:50px;
+    height:50px;
+    right:35px;
+    top:70px;
+    background:url(../images/interview6.jpg) no-repeat;
+}
+/*新闻内容样式*/
+.content .news{
+    max-width:980px;
+    margin:0 auto;
+    height:auto;
+}
+.content .news_content{
+    padding:75px 120px 55px;
+    height:auto;
+    background-color:#f5f5f5;
+    font-size:18px;
+    line-height:30px;
+    color:#646464;
+}
+.content .news_content h4{
+    font-size:22px;
+}
+.content .news_content .about{
+    text-indent:35px;
+}
+.content .news_content img{
+    margin:40px auto;
+    display:block;
+}
+.content .news_content .question{
+    margin-bottom:10px;
+}
+.content .news_content .question1{
+    margin-top:20px;
+}
+.content .news_content .question2{
+    margin-top:20px;
+    text-indent:35px;
+}
+.content .news_content .last{
+    margin-top:30px;
+    font-size:22px;
+    text-indent:35px;
+}
+.content .news_content .line{
+    width:100%;
+    height:1px;
+    border-bottom:2px solid #d5d5d5;
+    margin:75px 0 20px 0;
+    overflow:hidden;
+}
+.content .news_content a{
+    color:#080808;
+}
+

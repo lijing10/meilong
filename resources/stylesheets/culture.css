@@ -1,0 +1,41 @@
+.content{height:auto;}
+/*盒子3*/
+.content .bg3{margin:0 auto;position:relative;max-width:980px;height:790px;text-align:center;}
+.content .big_img1{margin-left:-48%;padding-top:200px;width:196%;height:590px;background:url(../images/culture9.png) no-repeat 0 -1px;overflow:hidden;}
+.big_img1 h1{margin:0 auto;color:white;width:480px;font-size:38px;line-height:75px;border:2px solid white;}
+.big_img1 h4{position:absolute;left:620px;top:550px;font-size:24px;color:white;width:240px;}
+.big_img1 p{position:absolute;left:620px;top:605px;font-size:12px;text-align:left;color:white;width:260px;line-height:20px;}
+.big_img1 .small_img6{position:absolute;left:45px;top:510px;}
+.big_img1 .small_img5{position:absolute;left:250px;top:446px;z-index:999;}
+
+.history{max-width:980px;position:relative;margin:0 auto;height:375px;}
+.history .list1{width:220px;margin:160px 125px 0 55px;}
+.history .list2{width:220px;margin:160px 125px 0 0;}
+.history .list3{width:220px;margin:160px 0 0 0;}
+.history h4{color:#2e2e38;font-size:16px;text-align:left;margin-bottom:20px;}
+.history p{color:#98a5b1;font-size:14px;text-align:left;line-height:20px;}
+
+.content > .big_img2{text-align:center;width:100%;height:510px;background:url(../images/culture2.png) no-repeat;}
+.big_img2 h4{padding:200px 0 0 0;font-size:28px;color:white;}
+.big_img2 p{font-size:12px;margin:30px 0 0 0;color:white;}
+
+.history1{max-width:1200px;margin:0 auto;height:745px;}
+/*盒子2*/
+.history1 .bg2{margin:0 auto;position:relative;max-width:980px;height:745px;}
+.history1_p1{color:#2e2e38;font-size:16px;position:absolute;left:140px;top:200px;line-height:35px;}
+.small_img1{position:absolute;left:400px;top:145px;}
+.small_img7{position:absolute;left:135px;top:375px;}
+.history1_p2{color:#2e2e38;font-size:16px;position:absolute;left:635px;top:510px;line-height:35px;}
+
+.content > .big_img3{text-align:center;width:100%;height:326px;background:url(../images/culture10.png) no-repeat;}
+.big_img3 p{line-height:35px;padding:115px 0 0 0;font-size:18px;margin:30px 0 0 0;color:white;}
+
+.history2{height:845px;max-width:1200px;margin:0 auto;}
+/*盒子1固定*/
+.history2 .bg1{margin:0 auto;position:relative;max-width:980px;height:845px;}
+.history2_text{color:#2e2e38;z-index:999;font-size:14px;position:absolute;left:125px;top:275px;line-height:30px;}
+.history2_p1{margin-bottom:40px;}
+.history2_p2{margin-bottom:25px;}
+.small_img2{position:absolute;left:535px;top:195px;}
+.small_img3{position:absolute;left:670px;top:365px;z-index:3;}
+.small_img4{position:absolute;left:470px;top:495px;}

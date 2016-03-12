@@ -1,0 +1,39 @@
+﻿.parallax {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax > .parallax-wrapper {
+    width: 160%;
+    height: 100%;
+    margin-left: -30%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: url(../bitmaps/common/parallax.jpg) repeat 0px 0px;
+}
+
+.parallax > .parallax-wrapper:before {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0px;
+    height: 100%;
+    content: " ";
+}
+
+.parallax > .parallax-wrapper > .parallax-content {
+    color: #fff;
+    font-size: 14px;
+    max-width: 580px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.parallax > .parallax-wrapper > .parallax-content > .parallax-content-title {
+    font-size: 38px;
+    margin: 0;
+    padding: 16px 0px;
+}

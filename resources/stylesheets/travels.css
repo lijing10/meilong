@@ -1,0 +1,10 @@
+﻿.travel-loader {
+    width: 1920px;
+    margin-left: -360px;
+}
+
+.travel-loader > .lazy {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

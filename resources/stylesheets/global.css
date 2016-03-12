@@ -1,0 +1,132 @@
+﻿/**
+ * 去掉所有标签默认的内外边距；
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * IE7 默认 html 标签的 overflow-y 是 scroll;
+*/
+html {
+    overflow: auto;
+}
+
+
+/*
+ * H5 新增标签以及自定义标签默认样式；
+**/
+main, content, container, banner, overlay {
+    display: block;
+}
+
+
+/**
+ * 重构 u, b, i, 标签；
+*/
+u {
+    text-decoration: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+var {
+    font-style: normal;
+}
+
+
+/**
+ * 重构 h1, h2, h3, h4, h5, h6 标签；
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+
+/**
+ * 去掉 ul, ol 标签的默认样式；
+*/
+ul, ol {
+    list-style: none;
+}
+
+
+/**
+ * 去掉 fieldset 内外边距以及边框；
+*/
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+/**
+ * 重构 img 标签的 baseline；
+*/
+img {
+    vertical-align: top;
+}
+
+
+/**
+ * 去掉 -webkit- 输入框焦点的 outline;
+*/
+:focus {
+    outline: none;
+}
+
+
+/**
+ * 去掉 IE 浏览器输入框的清除按钮；
+*/
+::-ms-clear {
+    display: none;
+}
+
+
+/*
+ * 清除浮动类 (hasLayout + Block Formatting Context)；
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+.clearfix, .fix-clean {
+    *zoom: 1;
+}
+.clearfix:before, .fix-clean:before,
+.clearfix:after , .fix-clean:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after, .fix-clean:after {
+    clear: both;
+}
+
+
+
+/**
+ * 设置 display: none;
+*/
+.hidden {
+    display: none !important;
+}
+
+
+/**
+ * AutoAlpha 不可见；
+*/
+.autoalpha {
+    visibility: hidden;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+

@@ -1,0 +1,63 @@
+/*初始化*/
+*{margin:0;padding:0;font-family:'宋体';}
+body{font-size:12px;}
+ul{list-style-type:none;}
+a{text-decoration:none;}
+h4,h5{letter-spacing:5px;}
+.float_left{float:left;}
+.float_right{float:right;}
+.clear{clear:both;}
+
+/*内容样式*/
+.content{min-width:1200px;height:auto;}
+.content .top_img{text-align:center;width:100%;height:958px;background:url(../images/product1_1.png) no-repeat center;}
+.content .top_img p{font-size:100px;color:white;padding:210px 0 0 35px;letter-spacing:35px;}
+
+.content .new{max-width:1080px;margin:0 auto;}
+.content .new h4{color:#383838;font-weight:normal;font-size:44px;text-align:center;margin:95px 0 15px 0;letter-spacing:5px;}
+.content .new p{color:#666565;font-size:20px;text-align:center;word-spacing:3px;}
+.content .new img{margin:80px 0 185px 30px;}
+
+.content .taste .bg1{width:100%;background-color:#191732;color:white;}
+.content .taste .bg1 h4{font-weight:normal;font-size:44px;text-align:center;padding:75px 0 20px 0;letter-spacing:5px;}
+.content .taste .bg1 p{padding-bottom:45px;font-size:20px;text-align:center;word-spacing:3px;}
+
+.content .taste .bg2{letter-spacing:3px;width:100%;height:400px;background-color:#000;color:#fcf9f9;font-size:18px;}
+.content .taste .bg2>div{max-width:1080px;margin:0 auto;position:relative;}
+.content .taste .bg2 .text1{position:absolute;left:93px;top:83px;background:url(../images/product1_3.png) no-repeat 0 center;line-height:94px;text-indent:105px;}
+.content .taste .bg2 .text2{position:absolute;left:365px;top:83px;background:url(../images/product1_4.png) no-repeat 0 center;line-height:94px;text-indent:105px;}
+.content .taste .bg2 .text3{position:absolute;left:93px;top:205px;background:url(../images/product1_5.png) no-repeat 0 center;line-height:94px;text-indent:105px;}
+.content .taste .bg2 .text4{z-index:999;position:absolute;left:365px;top:205px;background:url(../images/product1_6.png) no-repeat 0 center;line-height:30px;height:94px;}
+.content .taste .bg2 .text4 p{padding:18px 0 0 105px;}
+.content .taste .bg2 img{position:absolute;left:583px;top:147px;}
+
+.content .taste .bg3{letter-spacing:3px;width:100%;background-color:#191732;color:#fcf9f9;font-size:18px;}
+.content .taste .bg3>div{max-width:1080px;margin:0 auto;position:relative;}
+.content .taste .bg3 p{padding:40px 0 75px 90px;line-height:30px;}
+
+.content .message{max-width:1080px;margin:0 auto;}
+.content .message .para{padding:215px 0 188px 362px;background:url(../images/product1_7.png) no-repeat 90px 185px;}
+.content .message .para h4{margin-left:6px;font-weight:normal;font-size:44px;color:#333333;}
+.content .message .para_product{margin:10px 0 30px 6px;font-size:20px;color:#666666;}
+.content .message .para_data{margin:0 0 20px 6px;font-size:22px;color:#666666;}
+.content .message table tr{line-height:30px;font-size:18px;}
+.content .message table td{width:310px;background-color:#e5e5e5;color:#666666;text-indent:13px;}
+
+.content .message .history{text-align:center;}
+.content .message .history h4{font-weight:normal;font-size:44px;color:#333333;}
+.content .message .history .english{font-weight:normal;font-size:20px;color:#666666;margin:15px 0 30px 0;}
+.content .message .history .china{letter-spacing:2px;font-size:22px;color:#666666;line-height:35px;}
+.content .message .history .store{margin:120px 0 245px 0;}
+.content .message .history .brand{margin:35px 0 215px 0;}
+.content .message .history .occassion{margin:40px 0 255px 0;}
+
+.content .bottom_img{text-align:center;width:100%;height:600px;background:url(../images/product1_11.png) no-repeat center;}
+.content .bottom_img h1{font-size:80px;color:white;padding:135px 0 0 30px;letter-spacing:30px;font-weight:normal;}
+.content .bottom_img .p1{letter-spacing:3px;margin:25px 0 35px 0;line-height:35px;font-size:24px;color:#fbf7f7;}
+.content .bottom_img .p2{letter-spacing:2px;line-height:35px;font-size:20px;color:#e5e1e1;}
+
+.content .message .history .last{padding-top:195px;}
+.content .message .history .serve .first{margin-left:87px;}
+.content .message .history .serve li{float:left;font-size:24px;margin:50px 0 210px 0;color:#4c4c4c;font-family:'微软雅黑';}
+.content .message .history .serve .line{overflow:hidden;width:140px;height:1px;background-color:black;margin:210px 13px 0 13px;}
+.content .message .history .serve p{margin-top:10px;} 
